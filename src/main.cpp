@@ -8,7 +8,3 @@ void setup() {
     pinMode(greenPin, OUTPUT);
     pinMode(bluePin, OUTPUT);
 }
-
-void loop() {
-
-}
