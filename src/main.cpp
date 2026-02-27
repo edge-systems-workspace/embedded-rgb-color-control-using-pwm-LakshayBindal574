@@ -14,3 +14,29 @@ void setColor(int red, int green, int blue) {
     analogWrite(greenPin, green);
     analogWrite(bluePin, blue);
 }
+
+void loop() {
+    setColor(255, 0, 0);
+    delay(1000);
+
+    setColor(0, 255, 0);
+    delay(1000);
+
+    setColor(0, 0, 255);
+    delay(1000);
+
+    setColor(255, 255, 0);
+    delay(1000);
+
+    setColor(0, 255, 255);
+    delay(1000);
+
+    setColor(255, 0, 255);
+    delay(1000);
+
+    setColor(255, 255, 255);
+    delay(1000);
+
+    setColor(128, 0, 128);
+    delay(1000);
+}
